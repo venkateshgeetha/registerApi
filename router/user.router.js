@@ -66,8 +66,6 @@ router.post("/login", async (req, res, next) => {
                         return res.send(updateToken);
                     }
                 }
-
-
             }
         }
         else if(!userInfo){
